@@ -3,7 +3,7 @@ package JavaOOPS;
 abstract class vehicle1{
     abstract void m1();
     void m2() {
-        System.out.println("Given vehicles are: ");
+        System.out.println("What is the first mode of transportation? ");
     }
 }
 public class Abstract_Java extends vehicle1 {
@@ -17,7 +17,7 @@ public class Abstract_Java extends vehicle1 {
 
     }
     void m1() {
-        System.out.println("Car,Bus,Truck");
+        System.out.println("Human Foot");
     }
 
 }

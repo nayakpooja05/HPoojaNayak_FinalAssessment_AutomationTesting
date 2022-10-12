@@ -1,14 +1,14 @@
 package JavaOOPS;
 
-	interface abc12{
+	interface language1{
 		void m1();
 	}
 
-	interface abc2{
+	interface language2{
 		void m2();
 		}
 
-	public class MultipleInheritance_Java  implements abc12,abc2{
+	public class MultipleInheritance_Java  implements language1,language2{
 
 		public static void main(String[] args) {
 			// TODO Auto-generated method stub
@@ -18,11 +18,11 @@ package JavaOOPS;
 		}
 		public void m1()
 		{
-			System.out.println("Hello world");
+			System.out.println("Java");
 		}
 		public void m2()
 		{
-			System.out.println("Welcome to java programming");
+			System.out.println("Python");
 		}
 
 }

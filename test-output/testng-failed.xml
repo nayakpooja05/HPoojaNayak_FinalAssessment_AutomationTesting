@@ -6,7 +6,6 @@
       <class name="testNG.OrangeHRM_testNG">
         <methods>
           <include name="hrmleave"/>
-          <include name="search" invocation-numbers="0"/>
         </methods>
       </class> <!-- testNG.OrangeHRM_testNG -->
     </classes>

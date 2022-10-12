@@ -1,27 +1,28 @@
 package JavaOOPS;
-class Animal{  
+class Retail{  
   void eat()
   {
-	  System.out.println("eating");
+	  System.out.println("Food");
 	  }  
 }  
-class Dog extends Animal{  
-  void bark()
+class Cloth extends Retail{  
+  void wear1()
   {
-	  System.out.println("barking");
+	  System.out.println("Clothing and textiles");
 	  }  
 }  
-class puppy extends Dog{  
-  void weep()
+class Foot extends Cloth{  
+  void wear2()
   {
-	  System.out.println("weeping");
+	  System.out.println("Footwear");
 	  }  
 }  
 public class MultilevelInheritance_Java {  
 public static void main(String args[]){  
-      puppy d=new puppy();  
-      d.weep();  
-      d.bark();  
+      Foot d=new Foot();  
+      System.out.println("List types of retail sector");
+      d.wear1();  
+      d.wear2();  
       d.eat();  
 }
 }  
