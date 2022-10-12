@@ -1,0 +1,41 @@
+The src/test/java folder contains following Programs:
+
+In the folder WebElements,Following codes are present:
+1. Find the web elements using Locators ( Id, Name and XPath )
+A. Elements present on Login page 
+B. Elements present on Dashboards 
+
+In the folder MouseActions,Following codes are present:
+2. Mouse actions - Find the web elements and perform below actions
+a)	Click 
+b)	Hover 
+c)	Drag & Drop
+
+In the folder Alerts,Following codes are present:
+3. Alerts Handling:
+a)	Simple alert
+b)	Prompt alert
+c)	Confirmation Alert
+
+In the folder testNG,Following codes are present:
+4. TestNG Framework 
+a)	Write a program to HRM Login
+b)	Write program to apply leave
+c)	User method over loading for searching 
+
+In the folder JavaOOPS,Following codes are present:
+5. Object Oriented Programming: Write programs on below topics
+a)	Override 
+b)	Overloading
+c)	Inheritance 
+d)	Abstract 
+e)	Interface
+f)	Exception Handling
+g)	Collections
+h)	Access Modifiers
+
+In the folder Cucumber,Following codes are present:
+6. Cucumber
+a)	Write program to login to HRM Login
+b)	Write program to apply leave
+c)	User method over loading for searching 
